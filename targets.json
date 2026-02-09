@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Mano Puslapis",
+        "url": "https://tavo-svetaine.lt",
+        "container_name": "nginx_prod"
+    },
+    {
+        "name": "Backend API",
+        "url": "http://127.0.0.1:8080",
+        "container_name": "api_container"
+    }
+]
