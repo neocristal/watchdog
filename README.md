@@ -14,3 +14,18 @@
 2. Įsidiekite reikiamas bibliotekas:
    ```bash
    pip install requests docker
+
+Išsisaugokite kodą kaip watchdog.py.
+
+Redaguokite URL ir CONTAINER_NAME kintamuosius pagal savo poreikius.
+
+Paleiskite skriptą fone:
+
+Bash
+nohup python3 watchdog.py &
+
+Patarimas: Jei nori gauti pranešimus į telefoną, rekomenduoju į send_notification funkciją įsidėti paprastą Telegram Bot užklausą. Ar norėtum, kad parodyčiau, kaip tai padaryti?
+
+---
+
+Ar norėtum, kad į šį failą dar įtraukčiau konkrečią dalį apie **Telegram** pranešimų siuntimą (su `requests.post`) ar **Docker Compose** konfigūraciją?
